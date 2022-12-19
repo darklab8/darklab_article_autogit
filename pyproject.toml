@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "darklab-article-documention-as-a-code"
+name = "darklab-article-autogit"
 version = "0.1.0"
-description = "Article about documenting as a code"
+description = "Article about conventional commits and semantic versioning tool"
 authors = ["Your Name <you@example.com>"]
-license = "MIT"
+license = "GPL3"
 readme = "README.md"
-packages = [{include = "darklab_article_documention_as_a_code"}]
+packages = [{include = "darklab_article_autogit"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
