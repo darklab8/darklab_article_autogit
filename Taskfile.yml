@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  init:
+    cmds:
+      - poetry install
+
+  dev:
+    cmds:
+      - poetry run -- mkdocs serve
